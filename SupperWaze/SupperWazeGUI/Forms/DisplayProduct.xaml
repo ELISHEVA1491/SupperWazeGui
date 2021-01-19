@@ -1,0 +1,35 @@
+﻿<Window x:Class="SupperWazeGUI.Forms.Display"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SupperWazeGUI.Forms"
+        mc:Ignorable="d"
+        Title="Display" Height="450" Width="800">
+    <Grid>
+   
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="26*"/>
+            <ColumnDefinition Width="7*"/>
+            <ColumnDefinition Width="49*"/>
+            <ColumnDefinition Width="710*"/>
+        </Grid.ColumnDefinitions>
+
+        <ListView Margin="0,96,20,-76" Name="Lvproducts" Grid.ColumnSpan="4">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="ProductCode" Width="Auto" DisplayMemberBinding="{Binding ProductCode}" />
+                    <GridViewColumn Header="ProductDescription" Width="Auto" DisplayMemberBinding="{Binding ProductDescription}" />
+                    <GridViewColumn Header="ProductLocation" Width="Auto" DisplayMemberBinding="{Binding ProductLocation}" />
+                    <GridViewColumn Header="ProductPrice"  Width="Auto" DisplayMemberBinding="{Binding ProductPrice}" />
+                    <GridViewColumn Header="SaleCode"  Width="Auto" DisplayMemberBinding="{Binding SaleCode}" />
+                    <GridViewColumn Header="ProductCompany" Width="Auto" DisplayMemberBinding="{Binding ProductCompany}" />
+                    <GridViewColumn Header="UnitsInStock"  Width="Auto" DisplayMemberBinding="{Binding UnitsInStock}" />
+
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+  
+</Window>

@@ -1,0 +1,45 @@
+﻿<Window x:Class="SupperWazeGUI.Forms.StartShoppingMessage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SupperWazeGUI.Forms"
+        mc:Ignorable="d"
+        Title="StartShoppingMessage" Height="300" Width="495.592" WindowState="Maximized">
+    <Grid Background="Black">
+        <Grid.RowDefinitions>
+                <RowDefinition Height="1.5*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="2*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.5*"/>
+                <ColumnDefinition Width="0.5*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Image Source="~\..\..\Images\logo.png" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="30,0,0,0"/>
+        <Grid Grid.Row="1" Grid.Column="2">
+            <Grid.Background>
+                <ImageBrush ImageSource="/SupperWazeGUI;component/Images/start_background.png"/>
+            </Grid.Background>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="0.7*"/>
+            </Grid.RowDefinitions>
+            <Label x:Name="titleLBL" Grid.Row="1" Content="פרטיך נשמרו במערכת בהצלחה" HorizontalAlignment="Center" Foreground="#FFEC8716" FontFamily="AsparagosLight" FontSize="20"/>
+            <Label Content="{Binding Mode=OneWay}" Grid.Row="2" HorizontalAlignment="Center" Foreground="#FFEC8716" FontFamily="AsparagosLight" FontSize="20"/>
+           
+            <Image Name="okBtn" Source="~\..\..\Images\startShoppingBTN.png" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="4" MouseDown="okBtn_MouseDown" />
+
+        </Grid>
+        
+        
+    </Grid>
+</Window>

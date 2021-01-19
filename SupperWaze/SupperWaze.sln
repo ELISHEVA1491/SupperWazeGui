@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.539
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupperWazeGUI", "SupperWazeGUI\SupperWazeGUI.csproj", "{7162A697-5375-4C7F-B014-77B7ED3EC731}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupperWazeBL", "SupperWazeBL\SupperWazeBL.csproj", "{DD01CD1C-3F58-4848-8DBD-31042949E00C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupperWazeDAL", "SupperWazeDAL\SupperWazeDAL.csproj", "{FB6F269D-0E96-4878-B3D7-8EDBC5BE4FD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupperWazeENTITIES", "SupperWazeENTITIES\SupperWazeENTITIES.csproj", "{CEDB8B3B-E7BA-42DC-8066-AD0CBF0310EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7162A697-5375-4C7F-B014-77B7ED3EC731}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7162A697-5375-4C7F-B014-77B7ED3EC731}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7162A697-5375-4C7F-B014-77B7ED3EC731}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7162A697-5375-4C7F-B014-77B7ED3EC731}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD01CD1C-3F58-4848-8DBD-31042949E00C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD01CD1C-3F58-4848-8DBD-31042949E00C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD01CD1C-3F58-4848-8DBD-31042949E00C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD01CD1C-3F58-4848-8DBD-31042949E00C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB6F269D-0E96-4878-B3D7-8EDBC5BE4FD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB6F269D-0E96-4878-B3D7-8EDBC5BE4FD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB6F269D-0E96-4878-B3D7-8EDBC5BE4FD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB6F269D-0E96-4878-B3D7-8EDBC5BE4FD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEDB8B3B-E7BA-42DC-8066-AD0CBF0310EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEDB8B3B-E7BA-42DC-8066-AD0CBF0310EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEDB8B3B-E7BA-42DC-8066-AD0CBF0310EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEDB8B3B-E7BA-42DC-8066-AD0CBF0310EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F6FBE1E-A3F9-4EED-B5C2-FBC94067F714}
+	EndGlobalSection
+EndGlobal

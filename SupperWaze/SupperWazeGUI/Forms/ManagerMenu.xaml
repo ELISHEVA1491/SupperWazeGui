@@ -1,0 +1,445 @@
+﻿<Window x:Class="SupperWazeGUI.Forms.ManagerMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SupperWazeGUI.Forms"
+        mc:Ignorable="d"
+        Title="ManagerMenu" Height="300" Width="468.445" WindowState="Maximized">
+    <Window.Resources>
+        <Style TargetType="Label">
+            <Setter Property="Foreground" Value="#FFEC8716"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="HorizontalAlignment" Value="Right"/>
+            <Setter Property="FontFamily" Value="AsparagosLight"/>
+            <Setter Property="FontSize" Value="25"/>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="FontFamily" Value="AsparagosLight"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid Background="Black">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1.5*"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.5*"/>
+            <ColumnDefinition Width="0.5*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        
+        <Image Source="~\..\..\Images\logo.png" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="30,0,0,0"/>
+        <Grid Grid.RowSpan="4" Grid.Column="3">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="0.2*"/>
+                <RowDefinition Height="0.2*"/>
+                <RowDefinition Height="6*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2.5*"/>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Image Grid.Row="2" Grid.Column="2"  Source="~\..\..\Images\menu_icon.png" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+
+            <Grid Grid.Column="1" Grid.Row="1" Grid.RowSpan="3">
+                <Grid.Background>
+                    <ImageBrush ImageSource="/SupperWazeGUI;component/Images/manager_menu.png"/>
+                </Grid.Background>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="5*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="6*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label x:Name="lbl1" Content="הוסף מוצר" Grid.Row="1" MouseDown="Label_MouseDown" MouseEnter="Label_MouseMove" MouseLeave="lbl1_MouseLeave"/>
+                <Label Content="עדכן מחיר מוצר" Grid.Row="2" MouseDown="Label_MouseDown_1" MouseEnter="Label_MouseMove" MouseLeave="lbl1_MouseLeave"/>
+                <Label Content="עדכן מיקום מוצר" Grid.Row="3" MouseDown="Label_MouseDown_2" MouseEnter="Label_MouseMove" MouseLeave="lbl1_MouseLeave"/>
+                <Label Content="מחק מוצר" Grid.Row="4" MouseDown="Label_MouseDown_3" MouseEnter="Label_MouseMove" MouseLeave="lbl1_MouseLeave"/>
+                <Label Content="עדכן מלאי" Grid.Row="5" MouseDown="Label_MouseDown_5" MouseEnter="Label_MouseMove" MouseLeave="lbl1_MouseLeave"/>
+                <Label Content="הוסף מבצע" Grid.Row="6" MouseDown="Label_MouseDown_4" MouseEnter="Label_MouseMove" MouseLeave="lbl1_MouseLeave"/>
+                <Label Content="עדכן מבצע" Grid.Row="7" MouseDown="Label_MouseDown_6" MouseEnter="Label_MouseMove" MouseLeave="lbl1_MouseLeave"/>
+                <Label Content="מחק מבצע" Grid.Row="8" MouseDown="Label_MouseDown_7" MouseEnter="Label_MouseMove" MouseLeave="lbl1_MouseLeave"/>
+            </Grid>
+        </Grid>
+        
+        <Grid x:Name="AddProduct" Grid.Row="1" Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="2" Visibility="Hidden">
+            <Grid.Background>
+                <ImageBrush ImageSource="/SupperWazeGUI;component/Images/product_border.png"/>
+            </Grid.Background>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.6*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="0.08*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="0.6*"/>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Row="1" Grid.Column="3" Content="שם המוצר"/>
+            <TextBox Name="ProductName" Grid.Row="1" Grid.Column="1" Margin="1,1,1,1" BorderBrush="Transparent">
+                <TextBox.Background>
+                    <ImageBrush ImageSource="/SupperWazeGUI;component/Images/button.png"/>
+                </TextBox.Background>
+            </TextBox>
+            <Label Grid.Row="2" Grid.Column="3"  Content="מחיר"/>
+            <TextBox Name="ProductPrice" Grid.Row="2" Grid.Column="1" Margin="1,1,1,1" BorderBrush="Transparent">
+                <TextBox.Background>
+                    <ImageBrush ImageSource="/SupperWazeGUI;component/Images/button.png"/>
+                </TextBox.Background>
+            </TextBox>
+            <Label Grid.Row="3" Grid.Column="3"  Content="חברה"/>
+            <TextBox Name="ProductCompany" Grid.Row="3" Grid.Column="1" Margin="1,1,1,1" BorderBrush="Transparent">
+                <TextBox.Background>
+                    <ImageBrush ImageSource="/SupperWazeGUI;component/Images/button.png"/>
+                </TextBox.Background>
+            </TextBox>
+            <Label Grid.Row="4" Grid.Column="3"  Content="כמות במלאי"/>
+            <TextBox Name="ProductUnitStock" Grid.Row="4" Grid.Column="1" Margin="1,1,1,1" BorderBrush="Transparent">
+                <TextBox.Background>
+                    <ImageBrush ImageSource="/SupperWazeGUI;component/Images/button.png"/>
+                </TextBox.Background>
+            </TextBox>
+            <Label Grid.Row="5" Grid.Column="3"  Content="יחידות למוצר"/>
+            <TextBox Name="ProductCapacity" Grid.Row="5" Grid.Column="1" Margin="1,1,1,1" BorderBrush="Transparent">
+                <TextBox.Background>
+                    <ImageBrush ImageSource="/SupperWazeGUI;component/Images/button.png"/>
+                </TextBox.Background>
+            </TextBox>
+            <Label Grid.Row="6" Grid.Column="3" Content="מחלקה"/>
+            <ComboBox x:Name="platoonList" Grid.Row="6" Grid.Column="1" BorderBrush="Transparent">
+                <ComboBox.Background>
+                    <ImageBrush ImageSource="/SupperWazeGUI;component/Images/chooseLocationBTN.png"/>
+                </ComboBox.Background>
+            </ComboBox>
+            <Image Name="okBTN_newProduct" Source="~\..\..\Images\okBTN.png" Grid.Row="7" Grid.Column="1" Grid.ColumnSpan="3" MouseDown="okBTN_newProduct_MouseDown"/>
+        </Grid>
+
+        <Grid x:Name="UpdatePriceProduct" Grid.Row="1" Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="2" Visibility="Hidden">
+            <Grid.Background>
+                <ImageBrush ImageSource="/SupperWazeGUI;component/Images/product_border.png"/>
+            </Grid.Background>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.6*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="0.08*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="0.6*"/>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Row="1" Grid.Column="3" Content="שם המוצר"/>
+            <TextBox Name="ProductNameU" Grid.Row="1" Grid.Column="1" Margin="1,1,1,1" BorderBrush="Transparent">
+                <TextBox.Background>
+                    <ImageBrush ImageSource="/SupperWazeGUI;component/Images/button.png"/>
+                </TextBox.Background>
+            </TextBox>
+            <Label Grid.Row="2" Grid.Column="3"  Content="מחיר"/>
+            <TextBox Name="ProductPriceU" Grid.Row="2" Grid.Column="1" Margin="1,1,1,1" BorderBrush="Transparent">
+                <TextBox.Background>
+                    <ImageBrush ImageSource="/SupperWazeGUI;component/Images/button.png"/>
+                </TextBox.Background>
+            </TextBox>
+            <Image Name="okBTN_updateProduct" Source="~\..\..\Images\okBTN.png" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="3" MouseDown="okBTN_updateProduct_MouseDown"/>
+        </Grid>
+
+        <Grid x:Name="UpdatLocationProduct" Grid.Row="1" Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="2" Visibility="Hidden">
+            <Grid.Background>
+                <ImageBrush ImageSource="/SupperWazeGUI;component/Images/product_border.png"/>
+            </Grid.Background>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.6*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="0.08*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="0.6*"/>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Row="1" Grid.Column="3" Content="שם המוצר"/>
+            <TextBox Name="ProductNameL" Grid.Row="1" Grid.Column="1" Margin="1,1,1,1" BorderBrush="Transparent">
+                <TextBox.Background>
+                    <ImageBrush ImageSource="/SupperWazeGUI;component/Images/button.png"/>
+                </TextBox.Background>
+            </TextBox>
+            
+            <Image Name="okBTN_updateLocationProduct" Source="~\..\..\Images\okBTN.png" Grid.Row="7" Grid.Column="1" Grid.ColumnSpan="3" MouseDown="okBTN_updateLocationProduct_MouseDown"/>
+        </Grid>
+
+        <Grid x:Name="DeleteProduct" Grid.Row="1" Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="2" Visibility="Hidden">
+            <Grid.Background>
+                <ImageBrush ImageSource="/SupperWazeGUI;component/Images/product_border.png"/>
+            </Grid.Background>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.6*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="0.08*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="0.6*"/>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Row="1" Grid.Column="3" Content="בחר מחלקה"/>
+            <ComboBox x:Name="platoonListD" Grid.Row="1" Grid.Column="1" BorderBrush="Transparent" SelectionChanged="platoonListD_SelectionChanged">
+                <ComboBox.Background>
+                    <ImageBrush ImageSource="/SupperWazeGUI;component/Images/button.png"/>
+                </ComboBox.Background>
+            </ComboBox>  
+            <Label Grid.Row="2" Grid.Column="3" Content="שם המוצר"/>
+            <ComboBox x:Name="ProductListD" Grid.Row="2" Grid.Column="1" BorderBrush="Transparent" IsEnabled="False">
+                <ComboBox.Background>
+                    <ImageBrush ImageSource="/SupperWazeGUI;component/Images/button.png"/>
+                </ComboBox.Background>
+            </ComboBox>
+  
+            <Image Name="okBTN_DeleteProduct" Source="~\..\..\Images\okBTN.png" Grid.Row="7" Grid.Column="1" Grid.ColumnSpan="3" MouseDown="okBTN_DeleteProduct_MouseDown"/>
+        </Grid>
+
+        <Grid x:Name="UpdateUnitsProduct" Grid.Row="1" Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="2" Visibility="Hidden">
+            <Grid.Background>
+                <ImageBrush ImageSource="/SupperWazeGUI;component/Images/product_border.png"/>
+            </Grid.Background>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.6*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="0.08*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="0.6*"/>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Row="1" Grid.Column="3" Content="בחר מחלקה"/>
+            <ComboBox x:Name="platoonListU" Grid.Row="1" Grid.Column="1" BorderBrush="Transparent" SelectionChanged="platoonListU_SelectionChanged">
+                <ComboBox.Background>
+                    <ImageBrush ImageSource="/SupperWazeGUI;component/Images/button.png"/>
+                </ComboBox.Background>
+            </ComboBox>
+            <Label Grid.Row="2" Grid.Column="3" Content="שם המוצר"/>
+            <ComboBox x:Name="ProductListU" Grid.Row="2" Grid.Column="1" BorderBrush="Transparent" IsEnabled="False">
+                <ComboBox.Background>
+                    <ImageBrush ImageSource="/SupperWazeGUI;component/Images/button.png"/>
+                </ComboBox.Background>
+            </ComboBox>
+            <Label Grid.Row="3" Grid.Column="3"  Content="כמות במלאי"/>
+            <TextBox Name="ProductUnitStockUpdate" Grid.Row="3" Grid.Column="1" Margin="1,1,1,1" BorderBrush="Transparent">
+                <TextBox.Background>
+                    <ImageBrush ImageSource="/SupperWazeGUI;component/Images/button.png"/>
+                </TextBox.Background>
+            </TextBox>
+            <Image Name="okBTN_UpdateUnitsProduct" Source="~\..\..\Images\okBTN.png" Grid.Row="7" Grid.Column="1" Grid.ColumnSpan="3" MouseDown="okBTN_UpdateUnitsProduct_MouseDown"/>
+        </Grid>
+
+        <Grid x:Name="AddSale" Grid.Row="1" Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="2" Visibility="Hidden">
+            <Grid.Background>
+                <ImageBrush ImageSource="/SupperWazeGUI;component/Images/product_border.png"/>
+            </Grid.Background>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.6*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="0.08*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="0.6*"/>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Row="1" Grid.Column="3" Content="שם המוצר"/> 
+            <TextBox Name="ProductNameSale" Grid.Row="1" Grid.Column="1" Margin="1,1,1,1" BorderBrush="Transparent">
+                <TextBox.Background>
+                    <ImageBrush ImageSource="/SupperWazeGUI;component/Images/button.png"/>
+                </TextBox.Background>
+            </TextBox>
+            <Label Grid.Row="2" Grid.Column="3"  Content="מינימום יחידות ללקוח"/>
+            <TextBox Name="MinimumNumberOfUnitsToBuy" Grid.Row="2" Grid.Column="1" Margin="1,1,1,1" BorderBrush="Transparent">
+                <TextBox.Background>
+                    <ImageBrush ImageSource="/SupperWazeGUI;component/Images/button.png"/>
+                </TextBox.Background>
+            </TextBox>
+            <Label Grid.Row="3" Grid.Column="3"  Content="MinimumPurshasePricePerOffer"/>
+            <TextBox Name="MinimumPurshasePricePerOffer" Grid.Row="3" Grid.Column="1" Margin="1,1,1,1" BorderBrush="Transparent">
+                <TextBox.Background>
+                    <ImageBrush ImageSource="/SupperWazeGUI;component/Images/button.png"/>
+                </TextBox.Background>
+            </TextBox>
+            <Label Grid.Row="4" Grid.Column="3"  Content="מבצע ליחידה"/>
+            <TextBox Name="SalePriceForUnit" Grid.Row="4" Grid.Column="1" Margin="1,1,1,1" BorderBrush="Transparent">
+                <TextBox.Background>
+                    <ImageBrush ImageSource="/SupperWazeGUI;component/Images/button.png"/>
+                </TextBox.Background>
+            </TextBox>
+            <Label Grid.Row="5" Grid.Column="3"  Content="מבצע לכמות"/>
+            <TextBox Name="SalePriceForAmount" Grid.Row="5" Grid.Column="1" Margin="1,1,1,1" BorderBrush="Transparent">
+                <TextBox.Background>
+                    <ImageBrush ImageSource="/SupperWazeGUI;component/Images/button.png"/>
+                </TextBox.Background>
+            </TextBox>
+             
+            <Image Name="okBTN_newSale" Source="~\..\..\Images\okBTN.png" Grid.Row="7" Grid.Column="1" Grid.ColumnSpan="3" MouseDown="okBTN_newSale_MouseDown"/>
+        </Grid>
+
+        <Grid x:Name="UpdateSale" Grid.Row="1" Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="2" Visibility="Hidden">
+            <Grid.Background>
+                <ImageBrush ImageSource="/SupperWazeGUI;component/Images/product_border.png"/>
+            </Grid.Background>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.6*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="0.08*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="0.6*"/>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Row="1" Grid.Column="3" Content="שם המוצר"/>
+            <TextBox Name="ProductNameSaleU" Grid.Row="1" Grid.Column="1" Margin="1,1,1,1" BorderBrush="Transparent">
+                <TextBox.Background>
+                    <ImageBrush ImageSource="/SupperWazeGUI;component/Images/button.png"/>
+                </TextBox.Background>
+            </TextBox>
+            <Label Grid.Row="2" Grid.Column="3"  Content="מינימום יחידות ללקוח"/>
+            <TextBox Name="MinimumNumberOfUnitsToBuyU" Grid.Row="2" Grid.Column="1" Margin="1,1,1,1" BorderBrush="Transparent">
+                <TextBox.Background>
+                    <ImageBrush ImageSource="/SupperWazeGUI;component/Images/button.png"/>
+                </TextBox.Background>
+            </TextBox>
+            <Label Grid.Row="3" Grid.Column="3"  Content="MinimumPurshasePricePerOffer"/>
+            <TextBox Name="MinimumPurshasePricePerOfferU" Grid.Row="3" Grid.Column="1" Margin="1,1,1,1" BorderBrush="Transparent">
+                <TextBox.Background>
+                    <ImageBrush ImageSource="/SupperWazeGUI;component/Images/button.png"/>
+                </TextBox.Background>
+            </TextBox>
+            <Label Grid.Row="4" Grid.Column="3"  Content="מבצע ליחידה"/>
+            <TextBox Name="SalePriceForUnitU" Grid.Row="4" Grid.Column="1" Margin="1,1,1,1" BorderBrush="Transparent">
+                <TextBox.Background>
+                    <ImageBrush ImageSource="/SupperWazeGUI;component/Images/button.png"/>
+                </TextBox.Background>
+            </TextBox>
+            <Label Grid.Row="5" Grid.Column="3"  Content="מבצע לכמות"/>
+            <TextBox Name="SalePriceForAmountU" Grid.Row="5" Grid.Column="1" Margin="1,1,1,1" BorderBrush="Transparent">
+                <TextBox.Background>
+                    <ImageBrush ImageSource="/SupperWazeGUI;component/Images/button.png"/>
+                </TextBox.Background>
+            </TextBox>
+
+            <Image Name="okBTN_updateSale" Source="~\..\..\Images\okBTN.png" Grid.Row="7" Grid.Column="1" Grid.ColumnSpan="3" MouseDown="okBTN_updateSale_MouseDown"/>
+        </Grid>
+
+        <Grid x:Name="DeleteSale" Grid.Row="1" Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="2" Visibility="Hidden">
+            <Grid.Background>
+                <ImageBrush ImageSource="/SupperWazeGUI;component/Images/product_border.png"/>
+            </Grid.Background>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.6*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="0.08*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="0.6*"/>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Row="1" Grid.Column="3" Content="בחר מחלקה"/>
+            <ComboBox x:Name="platoonListDS" Grid.Row="1" Grid.Column="1" BorderBrush="Transparent" SelectionChanged="platoonListDS_SelectionChanged">
+                <ComboBox.Background>
+                    <ImageBrush ImageSource="/SupperWazeGUI;component/Images/button.png"/>
+                </ComboBox.Background>
+            </ComboBox>
+            <Label Grid.Row="2" Grid.Column="3" Content="שם המוצר שעליו המבצע"/>
+            <ComboBox x:Name="ProductListDS" Grid.Row="2" Grid.Column="1" BorderBrush="Transparent" IsEnabled="False">
+                <ComboBox.Background>
+                    <ImageBrush ImageSource="/SupperWazeGUI;component/Images/button.png"/>
+                </ComboBox.Background>
+            </ComboBox>
+
+            <Image Name="okBTN_DeleteSale" Source="~\..\..\Images\okBTN.png" Grid.Row="7" Grid.Column="1" Grid.ColumnSpan="3" MouseDown="okBTN_DeleteSale_MouseDown"/>
+        </Grid>
+    </Grid>
+</Window>

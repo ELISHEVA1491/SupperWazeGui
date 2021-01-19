@@ -1,0 +1,57 @@
+C:\SupperWaze\SupperWaze\SupperWazeBL\bin\Debug\SupperWazeBL.dll
+C:\SupperWaze\SupperWaze\SupperWazeBL\bin\Debug\SupperWazeBL.pdb
+C:\SupperWaze\SupperWaze\SupperWazeBL\bin\Debug\SupperWazeDAL.dll
+C:\SupperWaze\SupperWaze\SupperWazeBL\bin\Debug\SupperWazeENTITIES.dll
+C:\SupperWaze\SupperWaze\SupperWazeBL\bin\Debug\SupperWazeDAL.pdb
+C:\SupperWaze\SupperWaze\SupperWazeBL\bin\Debug\SupperWazeENTITIES.pdb
+C:\SupperWaze\SupperWaze\SupperWazeBL\obj\Debug\SupperWazeBL.csprojAssemblyReference.cache
+C:\SupperWaze\SupperWaze\SupperWazeBL\obj\Debug\SupperWazeBL.csproj.CoreCompileInputs.cache
+C:\SupperWaze\SupperWaze\SupperWazeBL\obj\Debug\SupperWazeBL.csproj.CopyComplete
+C:\SupperWaze\SupperWaze\SupperWazeBL\obj\Debug\SupperWazeBL.dll
+C:\SupperWaze\SupperWaze\SupperWazeBL\obj\Debug\SupperWazeBL.pdb
+C:\Users\אלישבע תורג'מן\Desktop\שולחן עבודה\פרויקט\SupperWaze\SupperWaze\SupperWazeBL\bin\Debug\SupperWazeBL.dll
+C:\Users\אלישבע תורג'מן\Desktop\שולחן עבודה\פרויקט\SupperWaze\SupperWaze\SupperWazeBL\bin\Debug\SupperWazeBL.pdb
+C:\Users\אלישבע תורג'מן\Desktop\שולחן עבודה\פרויקט\SupperWaze\SupperWaze\SupperWazeBL\bin\Debug\SupperWazeDAL.dll
+C:\Users\אלישבע תורג'מן\Desktop\שולחן עבודה\פרויקט\SupperWaze\SupperWaze\SupperWazeBL\bin\Debug\SupperWazeENTITIES.dll
+C:\Users\אלישבע תורג'מן\Desktop\שולחן עבודה\פרויקט\SupperWaze\SupperWaze\SupperWazeBL\bin\Debug\SupperWazeDAL.pdb
+C:\Users\אלישבע תורג'מן\Desktop\שולחן עבודה\פרויקט\SupperWaze\SupperWaze\SupperWazeBL\bin\Debug\SupperWazeENTITIES.pdb
+C:\Users\אלישבע תורג'מן\Desktop\שולחן עבודה\פרויקט\SupperWaze\SupperWaze\SupperWazeBL\obj\Debug\SupperWazeBL.csprojResolveAssemblyReference.cache
+C:\Users\אלישבע תורג'מן\Desktop\שולחן עבודה\פרויקט\SupperWaze\SupperWaze\SupperWazeBL\obj\Debug\SupperWazeBL.dll
+C:\Users\אלישבע תורג'מן\Desktop\שולחן עבודה\פרויקט\SupperWaze\SupperWaze\SupperWazeBL\obj\Debug\SupperWazeBL.pdb
+C:\Users\1\Desktop\פרויקט\SupperWaze\SupperWaze\SupperWazeBL\obj\Debug\SupperWazeBL.csprojResolveAssemblyReference.cache
+C:\Users\1\Desktop\פרויקט\SupperWaze\SupperWaze\SupperWazeBL\obj\Debug\SupperWazeBL.csproj.CoreCompileInputs.cache
+C:\Users\1\Desktop\פרויקט\SupperWaze\SupperWaze\SupperWazeBL\obj\Debug\SupperWazeBL.dll
+C:\Users\1\Desktop\פרויקט\SupperWaze\SupperWaze\SupperWazeBL\obj\Debug\SupperWazeBL.pdb
+C:\Users\1\Desktop\פרויקט\SupperWaze\SupperWaze\SupperWazeBL\bin\Debug\SupperWazeBL.dll
+C:\Users\1\Desktop\פרויקט\SupperWaze\SupperWaze\SupperWazeBL\bin\Debug\SupperWazeBL.pdb
+C:\Users\1\Desktop\פרויקט\SupperWaze\SupperWaze\SupperWazeBL\bin\Debug\SupperWazeDAL.dll
+C:\Users\1\Desktop\פרויקט\SupperWaze\SupperWaze\SupperWazeBL\bin\Debug\SupperWazeENTITIES.dll
+C:\Users\1\Desktop\פרויקט\SupperWaze\SupperWaze\SupperWazeBL\bin\Debug\SupperWazeDAL.pdb
+C:\Users\1\Desktop\פרויקט\SupperWaze\SupperWaze\SupperWazeBL\bin\Debug\SupperWazeENTITIES.pdb
+C:\Users\אלישבע תורג'מן\Downloads\פרויקט\SupperWaze\SupperWaze\SupperWazeBL\bin\Debug\SupperWazeBL.dll
+C:\Users\אלישבע תורג'מן\Downloads\פרויקט\SupperWaze\SupperWaze\SupperWazeBL\bin\Debug\SupperWazeBL.pdb
+C:\Users\אלישבע תורג'מן\Downloads\פרויקט\SupperWaze\SupperWaze\SupperWazeBL\bin\Debug\SupperWazeDAL.dll
+C:\Users\אלישבע תורג'מן\Downloads\פרויקט\SupperWaze\SupperWaze\SupperWazeBL\bin\Debug\SupperWazeENTITIES.dll
+C:\Users\אלישבע תורג'מן\Downloads\פרויקט\SupperWaze\SupperWaze\SupperWazeBL\bin\Debug\SupperWazeDAL.pdb
+C:\Users\אלישבע תורג'מן\Downloads\פרויקט\SupperWaze\SupperWaze\SupperWazeBL\bin\Debug\SupperWazeENTITIES.pdb
+C:\Users\אלישבע תורג'מן\Downloads\פרויקט\SupperWaze\SupperWaze\SupperWazeBL\obj\Debug\SupperWazeBL.csprojResolveAssemblyReference.cache
+C:\Users\אלישבע תורג'מן\Downloads\פרויקט\SupperWaze\SupperWaze\SupperWazeBL\obj\Debug\SupperWazeBL.dll
+C:\Users\אלישבע תורג'מן\Downloads\פרויקט\SupperWaze\SupperWaze\SupperWazeBL\obj\Debug\SupperWazeBL.pdb
+C:\Users\אלישבע תורג'מן\Desktop\פרויקט\SupperWaze\SupperWaze\SupperWazeBL\bin\Debug\SupperWazeBL.dll
+C:\Users\אלישבע תורג'מן\Desktop\פרויקט\SupperWaze\SupperWaze\SupperWazeBL\bin\Debug\SupperWazeBL.pdb
+C:\Users\אלישבע תורג'מן\Desktop\פרויקט\SupperWaze\SupperWaze\SupperWazeBL\bin\Debug\SupperWazeDAL.dll
+C:\Users\אלישבע תורג'מן\Desktop\פרויקט\SupperWaze\SupperWaze\SupperWazeBL\bin\Debug\SupperWazeENTITIES.dll
+C:\Users\אלישבע תורג'מן\Desktop\פרויקט\SupperWaze\SupperWaze\SupperWazeBL\bin\Debug\SupperWazeDAL.pdb
+C:\Users\אלישבע תורג'מן\Desktop\פרויקט\SupperWaze\SupperWaze\SupperWazeBL\bin\Debug\SupperWazeENTITIES.pdb
+C:\Users\אלישבע תורג'מן\Desktop\פרויקט\SupperWaze\SupperWaze\SupperWazeBL\obj\Debug\SupperWazeBL.csprojResolveAssemblyReference.cache
+C:\Users\אלישבע תורג'מן\Desktop\פרויקט\SupperWaze\SupperWaze\SupperWazeBL\obj\Debug\SupperWazeBL.dll
+C:\Users\אלישבע תורג'מן\Desktop\פרויקט\SupperWaze\SupperWaze\SupperWazeBL\obj\Debug\SupperWazeBL.pdb
+C:\Users\אלישבע תורג'מן\Documents\a המסמכים שלי\פרויקטים\פרויקט גמר סופר וויז\SupperWaze\SupperWaze\SupperWazeBL\bin\Debug\SupperWazeBL.dll
+C:\Users\אלישבע תורג'מן\Documents\a המסמכים שלי\פרויקטים\פרויקט גמר סופר וויז\SupperWaze\SupperWaze\SupperWazeBL\bin\Debug\SupperWazeBL.pdb
+C:\Users\אלישבע תורג'מן\Documents\a המסמכים שלי\פרויקטים\פרויקט גמר סופר וויז\SupperWaze\SupperWaze\SupperWazeBL\bin\Debug\SupperWazeDAL.dll
+C:\Users\אלישבע תורג'מן\Documents\a המסמכים שלי\פרויקטים\פרויקט גמר סופר וויז\SupperWaze\SupperWaze\SupperWazeBL\bin\Debug\SupperWazeENTITIES.dll
+C:\Users\אלישבע תורג'מן\Documents\a המסמכים שלי\פרויקטים\פרויקט גמר סופר וויז\SupperWaze\SupperWaze\SupperWazeBL\bin\Debug\SupperWazeDAL.pdb
+C:\Users\אלישבע תורג'מן\Documents\a המסמכים שלי\פרויקטים\פרויקט גמר סופר וויז\SupperWaze\SupperWaze\SupperWazeBL\bin\Debug\SupperWazeENTITIES.pdb
+C:\Users\אלישבע תורג'מן\Documents\a המסמכים שלי\פרויקטים\פרויקט גמר סופר וויז\SupperWaze\SupperWaze\SupperWazeBL\obj\Debug\SupperWazeBL.csprojResolveAssemblyReference.cache
+C:\Users\אלישבע תורג'מן\Documents\a המסמכים שלי\פרויקטים\פרויקט גמר סופר וויז\SupperWaze\SupperWaze\SupperWazeBL\obj\Debug\SupperWazeBL.dll
+C:\Users\אלישבע תורג'מן\Documents\a המסמכים שלי\פרויקטים\פרויקט גמר סופר וויז\SupperWaze\SupperWaze\SupperWazeBL\obj\Debug\SupperWazeBL.pdb

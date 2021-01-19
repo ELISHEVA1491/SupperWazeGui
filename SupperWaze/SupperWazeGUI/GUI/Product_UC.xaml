@@ -1,0 +1,37 @@
+﻿<UserControl x:Class="SupperWazeGUI.GUI.Product_UC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SupperWazeGUI.GUI"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/SupperWazeGUI;component/Images/product_border.png"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.2*"/>
+            <RowDefinition Height="0.5*"/>
+            <RowDefinition Height="0.8*"/>
+            <RowDefinition Height="0.4*"/>
+            <RowDefinition Height="0.8*"/>
+            <RowDefinition Height="0.7*"/>
+            <RowDefinition Height="0.1*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Image Name="add_to_cart" Source="~\..\..\Images\add_to_cart.png" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Left" Grid.ColumnSpan="2" MouseDown="add_to_cart_MouseDown"/>
+        <Image Name="minus" Source="~\..\..\Images\minus.png" Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" MouseDown="minus_MouseDown"/>
+        <Image Name="plus" Source="~\..\..\Images\plus.png" Grid.Row="3" Grid.Column="3" VerticalAlignment="Center" MouseDown="plus_MouseDown"/>
+        <Image Name="productIMG" Grid.Row="2" Grid.Column="2" Grid.RowSpan="3" Source="{Binding RelativeSource={RelativeSource Mode=FindAncestor,AncestorType=UserControl},Path=ImageSource}"/>
+        <Label x:Name="quntityLBL" Content="{Binding RelativeSource={RelativeSource Mode=FindAncestor,AncestorType=UserControl},Path=Quntity}" Grid.Row="2" Grid.Column="2" Grid.RowSpan="3" FontSize="50" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" Foreground="Red"/>
+        <Label x:Name="priceLBL" Content="{Binding RelativeSource={RelativeSource Mode=FindAncestor,AncestorType=UserControl},Path=Price}" Grid.Row="5" Grid.ColumnSpan="3" Grid.Column="1" FontSize="12" HorizontalAlignment="Left"/>
+        <Label x:Name="desLBL" Content="{Binding RelativeSource={RelativeSource Mode=FindAncestor,AncestorType=UserControl},Path=Description}" Grid.Row="5" Grid.ColumnSpan="3"  Grid.Column="1" FontSize="12" HorizontalAlignment="Right" />
+    </Grid>
+</UserControl>

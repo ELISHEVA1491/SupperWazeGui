@@ -1,0 +1,44 @@
+﻿<Window x:Class="SupperWazeGUI.Forms.Welcome"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SupperWazeGUI.Forms"
+        mc:Ignorable="d"
+        Title="Welcome" Height="228.532" Width="363.989" WindowState="Maximized">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/SupperWazeGUI;component/Images/background.png" Stretch="Fill"/>
+        </Grid.Background>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="0.1*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="0.3*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="2.5*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="1.5*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Image Source="~\..\..\Images\logo.png" Grid.Column="1" Grid.Row="1" VerticalAlignment="Center"/>
+            <Label Content="Welcome!" Grid.Column="1" Grid.Row="3" Foreground="#FFD84488" FontFamily="Algerian" FontSize="35" VerticalAlignment="Bottom" HorizontalAlignment="Center"/>
+
+            <Grid Grid.Column="1" Grid.Row="5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="0.07*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Image x:Name="ManagerBTN" Source="~\..\..\Images\managerBTN.png" HorizontalAlignment="Right" Stretch="Uniform" MouseDown="ManagerBTN_MouseDown"/>
+                <Image x:Name="CustomerBTN" Source="~\..\..\Images\customerBTN.png" HorizontalAlignment="Left" Stretch="Uniform" Grid.Column="2" MouseDown="CustomerBTN_MouseDown"/>
+
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

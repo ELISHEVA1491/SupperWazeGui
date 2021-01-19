@@ -1,0 +1,731 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7162A697-5375-4C7F-B014-77B7ED3EC731}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SupperWazeGUI</RootNamespace>
+    <AssemblyName>SupperWazeGUI</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\אלישבע תורג%27מן\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>2366307CC2D26035D6B0B2A6130D6012E7E138EC</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>SupperWazeGUI_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Forms\ChooseLocation.xaml.cs">
+      <DependentUpon>ChooseLocation.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CustomerMenu.xaml.cs">
+      <DependentUpon>CustomerMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DisplayProduct.xaml.cs">
+      <DependentUpon>DisplayProduct.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\LocationMessage.xaml.cs">
+      <DependentUpon>LocationMessage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Map.xaml.cs">
+      <DependentUpon>Map.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RemoveProductFromCart.cs" />
+    <Page Include="Cart_Dictionary.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\ChooseLocation.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\CustomerMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\LocationMessage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\ManagerLogin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\ManagerMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\ShowCart.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\StartShoppingMessage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\TheShoppingRoute.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\TheSoppingMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Forms\Welcome.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GUI\Map.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GUI\Products_board_UC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GUI\Product_UC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forms\ManagerLogin.xaml.cs">
+      <DependentUpon>ManagerLogin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ManagerMenu.xaml.cs">
+      <DependentUpon>ManagerMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ShowCart.xaml.cs">
+      <DependentUpon>ShowCart.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\StartShoppingMessage.xaml.cs">
+      <DependentUpon>StartShoppingMessage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TheShoppingRoute.xaml.cs">
+      <DependentUpon>TheShoppingRoute.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TheSoppingMenu.xaml.cs">
+      <DependentUpon>TheSoppingMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Welcome.xaml.cs">
+      <DependentUpon>Welcome.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Products_board_UC.xaml.cs">
+      <DependentUpon>Products_board_UC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Product_UC.xaml.cs">
+      <DependentUpon>Product_UC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Forms\DisplayProduct.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Product.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Route_Dictionary.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Product.xaml.cs">
+      <DependentUpon>Product.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="SupperWazeGUI_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SupperWazeBL\SupperWazeBL.csproj">
+      <Project>{dd01cd1c-3f58-4848-8dbd-31042949e00c}</Project>
+      <Name>SupperWazeBL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SupperWazeENTITIES\SupperWazeENTITIES.csproj">
+      <Project>{cedb8b3b-e7ba-42dc-8066-ad0cbf0310ea}</Project>
+      <Name>SupperWazeENTITIES</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\minus.png" />
+    <Resource Include="Images\plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\background.png" />
+    <Resource Include="Images\button.png" />
+    <Resource Include="Images\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\customerBTN.png" />
+    <Resource Include="Images\managerBTN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\enter_img.png" />
+    <Resource Include="Images\okBTN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\manager_menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\menu_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\customer_background.png" />
+    <Resource Include="Images\customer_menu.png" />
+    <Resource Include="Images\saveBTN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\startShoppingBTN.png" />
+    <Resource Include="Images\start_background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\add_to_cart.png" />
+    <Resource Include="Images\depart_background.png" />
+    <Resource Include="Images\endBuyingBTN.png" />
+    <Resource Include="Images\products_background.png" />
+    <Resource Include="Images\product_border.png" />
+    <Resource Include="Images\showCartBTN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Platoons\babies.JPG" />
+    <Resource Include="Images\Platoons\bread.JPG" />
+    <Resource Include="Images\Platoons\cakes.JPG" />
+    <Resource Include="Images\Platoons\cans.JPG" />
+    <Resource Include="Images\Platoons\cleaning.JPG" />
+    <Resource Include="Images\Platoons\dishes.JPG" />
+    <Resource Include="Images\Platoons\frozen.JPG" />
+    <Resource Include="Images\Platoons\fruit_veg.JPG" />
+    <Resource Include="Images\Platoons\ice_creams.JPG" />
+    <Resource Include="Images\Platoons\milk.JPG" />
+    <Resource Include="Images\Platoons\snacks.JPG" />
+    <Resource Include="Images\Platoons\wines.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\nextArrow.png" />
+    <Resource Include="Images\prevArrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\addProdToCartBTN.png" />
+    <Resource Include="Images\totalPrice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\location.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\dishes\YTV36_Z_P_7290111342042_1.png" />
+    <Resource Include="Images\dishes\כוס גדולה.png" />
+    <Resource Include="Images\dishes\כוס שתיה חמה בייסיק.png" />
+    <Resource Include="Images\dishes\כוס שתיה חמה.png" />
+    <Resource Include="Images\dishes\כוסות שתי קרה יהלום.png" />
+    <Resource Include="Images\dishes\כוסות שתיה קרה מעוטרות זהב.png" />
+    <Resource Include="Images\dishes\כוסות שתיה קרה מעוטרות כסף.png" />
+    <Resource Include="Images\dishes\כף עבה שקופה.png" />
+    <Resource Include="Images\dishes\כף קרם.png" />
+    <Resource Include="Images\dishes\כפית עבה שקוף.png" />
+    <Resource Include="Images\dishes\כפית קרם.png" />
+    <Resource Include="Images\dishes\מארז צלחות מהודרות חגיגי.png" />
+    <Resource Include="Images\dishes\מזלג עבה שקוף.png" />
+    <Resource Include="Images\dishes\מזלג קרם.png" />
+    <Resource Include="Images\dishes\מפיות תלת שכבתי פרחים.png" />
+    <Resource Include="Images\dishes\מרקיה לבן.png" />
+    <Resource Include="Images\dishes\סכין עבה שקוף.png" />
+    <Resource Include="Images\dishes\צלחות לבן גדולות מאוד.png" />
+    <Resource Include="Images\dishes\צלחות לבן גדולות.png" />
+    <Resource Include="Images\dishes\צלחות לבן קטנות.png" />
+    <Resource Include="Images\dishes\צלחות נייר אלגנט.png" />
+    <Resource Include="Images\dishes\צלחות נייר פרחים.png" />
+    <Resource Include="Images\dishes\צלחות קרם גדולות מאוד.png" />
+    <Resource Include="Images\dishes\צלחות קרם גדולות.png" />
+    <Resource Include="Images\dishes\צלחות שמנת קטנות.png" />
+    <Resource Include="Images\dishes\תבניות אלומיניום אינגליש קייק.png" />
+    <Resource Include="Images\dishes\תבנית אלומיניום גדולה עבה במיוחד.png" />
+    <Resource Include="Images\dishes\תבנית אלומיניום גדולה.png" />
+    <Resource Include="Images\dishes\תבנית אלומיניום מוארכת.png" />
+    <Resource Include="Images\dishes\תבנית אלומיניום עגולה.png" />
+    <Resource Include="Images\dishes\תבנית אלומיניום ענקית.png" />
+    <Resource Include="Images\dishes\תבנית אלומיניום קטנה עמוקה.png" />
+    <Resource Include="Images\dishes\תבנית אלומיניום קטנה.png" />
+    <Resource Include="Images\dishes\תבנית אלומיניום רוסטר.png" />
+    <Resource Include="Images\dishes\תבנית אפיה אלומיניום מוארכת+מכסה.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\babies\מרכך הוואי לשיער יבש.png" />
+    <Resource Include="Images\babies\מרכך הוואי לשיער רגיל.png" />
+    <Resource Include="Images\babies\מרכך הוואי פרחי דובדבן.png" />
+    <Resource Include="Images\babies\מרכך למניעת קשקשים.png" />
+    <Resource Include="Images\babies\מרכך לשיער יבש חמאת שיאה.png" />
+    <Resource Include="Images\babies\מרכך לשיער צבוע ארגן.png" />
+    <Resource Include="Images\babies\מרכך לשיער רגיל ביוטין.png" />
+    <Resource Include="Images\babies\מרכך מועשר בשמנים.png" />
+    <Resource Include="Images\babies\מרכך פינוק לילדים.jpg" />
+    <Resource Include="Images\babies\מרכך פינוק לשיער רגיל.png" />
+    <Resource Include="Images\babies\מרכך שמני הזנה.png" />
+    <Resource Include="Images\babies\קונדישינר לשיער רגיל.png" />
+    <Resource Include="Images\babies\רחצה לגבר 3 ב 1.png" />
+    <Resource Include="Images\babies\שמפו הוואי לשיער יבש.png" />
+    <Resource Include="Images\babies\שמפו הוואי לשיער רגיל.png" />
+    <Resource Include="Images\babies\שמפו הוואי פרחי דובדבן.png" />
+    <Resource Include="Images\babies\שמפו ומרכך לגבר 2 ב1.png" />
+    <Resource Include="Images\babies\שמפו ומרכך פינוק רגיל.png" />
+    <Resource Include="Images\babies\שמפו לגבר.png" />
+    <Resource Include="Images\babies\שמפו למניעת קשקשים.png" />
+    <Resource Include="Images\babies\שמפו לסירוק קל.png" />
+    <Resource Include="Images\babies\שמפו לשיער יבש ופגום.png" />
+    <Resource Include="Images\babies\שמפו לשיער יבש.png" />
+    <Resource Include="Images\babies\שמפו לשיער מתולתל.png" />
+    <Resource Include="Images\babies\שמפו לשיער רגיל.png" />
+    <Resource Include="Images\babies\שמפו מועשר בשמנים.png" />
+    <Resource Include="Images\babies\שמפו נגד קשקשים.png" />
+    <Resource Include="Images\babies\שמפו פינוק לשיער יבש.png" />
+    <Resource Include="Images\babies\שמפו שמן מרוקאי.png" />
+    <Resource Include="Images\babies\שמפו שמן קוקוס.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\fruit_veg\אבוקדו.png" />
+    <Resource Include="Images\fruit_veg\אבטיח.png" />
+    <Resource Include="Images\fruit_veg\אגס.png" />
+    <Resource Include="Images\fruit_veg\אננס.png" />
+    <Resource Include="Images\fruit_veg\אפרסק.png" />
+    <Resource Include="Images\fruit_veg\אשכולית אדומה.png" />
+    <Resource Include="Images\fruit_veg\אשכולית לבנה.png" />
+    <Resource Include="Images\fruit_veg\בטטה.png" />
+    <Resource Include="Images\fruit_veg\בננה.png" />
+    <Resource Include="Images\fruit_veg\בצל אדום ארוז.png" />
+    <Resource Include="Images\fruit_veg\גזר ארוז.png" />
+    <Resource Include="Images\fruit_veg\חסה.png" />
+    <Resource Include="Images\fruit_veg\חציל.png" />
+    <Resource Include="Images\fruit_veg\כוסברה.png" />
+    <Resource Include="Images\fruit_veg\כרוב לבן.png" />
+    <Resource Include="Images\fruit_veg\כרוב סגול.png" />
+    <Resource Include="Images\fruit_veg\כרובית.png" />
+    <Resource Include="Images\fruit_veg\לימון.png" />
+    <Resource Include="Images\fruit_veg\מלון.png" />
+    <Resource Include="Images\fruit_veg\מלפון טרי ארוז.png" />
+    <Resource Include="Images\fruit_veg\מלפפון.png" />
+    <Resource Include="Images\fruit_veg\משמש.png" />
+    <Resource Include="Images\fruit_veg\נענע.png" />
+    <Resource Include="Images\fruit_veg\נקטרינה.png" />
+    <Resource Include="Images\fruit_veg\סלק.png" />
+    <Resource Include="Images\fruit_veg\עגבניה שרי אשכולות.png" />
+    <Resource Include="Images\fruit_veg\עגבניה שרי ווטני.png" />
+    <Resource Include="Images\fruit_veg\עגבניה.png" />
+    <Resource Include="Images\fruit_veg\ענב ירוק.png" />
+    <Resource Include="Images\fruit_veg\ענב סגול.png" />
+    <Resource Include="Images\fruit_veg\פטרוזיליה.png" />
+    <Resource Include="Images\fruit_veg\פטריות חורש.png" />
+    <Resource Include="Images\fruit_veg\פטריות שמפניון.png" />
+    <Resource Include="Images\fruit_veg\פלפל אדום.png" />
+    <Resource Include="Images\fruit_veg\פלפל חריף.png" />
+    <Resource Include="Images\fruit_veg\פלפל צהוב.png" />
+    <Resource Include="Images\fruit_veg\קולורבי.png" />
+    <Resource Include="Images\fruit_veg\קיווי.png" />
+    <Resource Include="Images\fruit_veg\קישוא.png" />
+    <Resource Include="Images\fruit_veg\שום.png" />
+    <Resource Include="Images\fruit_veg\שזיף.png" />
+    <Resource Include="Images\fruit_veg\שמיר.png" />
+    <Resource Include="Images\fruit_veg\תפוז.png" />
+    <Resource Include="Images\fruit_veg\תפוח אדמה גורמה.png" />
+    <Resource Include="Images\fruit_veg\תפוח אדמה לבן ארוז.png" />
+    <Resource Include="Images\fruit_veg\תפוח עץ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\bread\SIY50_L_P_9398687_1.png" />
+    <Resource Include="Images\bread\בגט כפרי.png" />
+    <Resource Include="Images\bread\בורקס גבינה.png" />
+    <Resource Include="Images\bread\בורקס תפוחי אדמה.png" />
+    <Resource Include="Images\bread\בצליות חלבי.png" />
+    <Resource Include="Images\bread\גביניות.png" />
+    <Resource Include="Images\bread\חלה מתוקה קלועה.png" />
+    <Resource Include="Images\bread\חלת גדרון.png" />
+    <Resource Include="Images\bread\טורקי גבינה.png" />
+    <Resource Include="Images\bread\טורקי פטריות.png" />
+    <Resource Include="Images\bread\מאפה פיטריות.png" />
+    <Resource Include="Images\bread\מאפה פרג.png" />
+    <Resource Include="Images\bread\מאפה שקדים.png" />
+    <Resource Include="Images\bread\מארז ביס בגט.png" />
+    <Resource Include="Images\bread\מארז חצי בגט כפרי.png" />
+    <Resource Include="Images\bread\מארז חצי ג%27בטה.png" />
+    <Resource Include="Images\bread\מארז פיתה תימנית.png" />
+    <Resource Include="Images\bread\מארז פיתות.png" />
+    <Resource Include="Images\bread\עוגה עם מלית שוקולד בחוש.png" />
+    <Resource Include="Images\bread\עוגיות דמקה.png" />
+    <Resource Include="Images\bread\עוגיות כתר.png" />
+    <Resource Include="Images\bread\עוגיות פרפריות שוקולד.png" />
+    <Resource Include="Images\bread\עוגת מאפין אגוזים.png" />
+    <Resource Include="Images\bread\עוגת מאפין תפוז.png" />
+    <Resource Include="Images\bread\קרואסון קטן.png" />
+    <Resource Include="Images\bread\רוגלך.png" />
+    <Resource Include="Images\bread\שנייק פיצה חלבי.png" />
+    <Resource Include="Images\bread\שנייק קינמון.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\cakes\אטריות דקות.png" />
+    <Resource Include="Images\cakes\מלח ים גס.png" />
+    <Resource Include="Images\cakes\מלח.png" />
+    <Resource Include="Images\cakes\פסטה מסולסלת.png" />
+    <Resource Include="Images\cakes\פסטה מקרוני.png" />
+    <Resource Include="Images\cakes\פסטה ספגטי.png" />
+    <Resource Include="Images\cakes\פסטה צדפים גדולים.png" />
+    <Resource Include="Images\cakes\פסטה צדפים קטנים.png" />
+    <Resource Include="Images\cakes\פסטה צינורות.png" />
+    <Resource Include="Images\cakes\פסטה קרניים בינוניות.png" />
+    <Resource Include="Images\cakes\פסטה תלתלים.png" />
+    <Resource Include="Images\cakes\שמן זית.png" />
+    <Resource Include="Images\cakes\שמן חמניות.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\frozen\אמנון.png" />
+    <Resource Include="Images\frozen\אנטריקוט.png" />
+    <Resource Include="Images\frozen\בשר הודו טחון.png" />
+    <Resource Include="Images\frozen\בשר עוף טחון.png" />
+    <Resource Include="Images\frozen\דניס.png" />
+    <Resource Include="Images\frozen\המבורגר.png" />
+    <Resource Include="Images\frozen\חזה עוף טרי.png" />
+    <Resource Include="Images\frozen\כנפי עוף טרי ארוז.png" />
+    <Resource Include="Images\frozen\כרעי עוף טרי ארוז.png" />
+    <Resource Include="Images\frozen\כתף.png" />
+    <Resource Include="Images\frozen\נקניקיות.png" />
+    <Resource Include="Images\frozen\סלומון פרוס.png" />
+    <Resource Include="Images\frozen\פילה סלומון.png" />
+    <Resource Include="Images\frozen\פילה עוף טרי ארוז.png" />
+    <Resource Include="Images\frozen\פרגיות עוף טרי ארוז.png" />
+    <Resource Include="Images\frozen\צלעות.png" />
+    <Resource Include="Images\frozen\קבב.png" />
+    <Resource Include="Images\frozen\קוקוטייל טרי ארוז.png" />
+    <Resource Include="Images\frozen\קרפיון.png" />
+    <Resource Include="Images\frozen\שוקי עוף טרי ארוז.png" />
+    <Resource Include="Images\frozen\שיפודי פרגיות.png" />
+    <Resource Include="Images\frozen\שניצל דק טרי ארוז.png" />
+    <Resource Include="Images\frozen\שניצל עוף טרי ארוז.png" />
+    <Resource Include="Images\frozen\שריר.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\milk\אקטימל לבן מארז.png" />
+    <Resource Include="Images\milk\אקטימל תות בננה מארז.png" />
+    <Resource Include="Images\milk\דנונה לשתיה תות בננה.png" />
+    <Resource Include="Images\milk\חלב 1%25 בקרטון.png" />
+    <Resource Include="Images\milk\חלב 3%25 בכד.png" />
+    <Resource Include="Images\milk\חלב 3%25 בקרטון טרה גדול.png" />
+    <Resource Include="Images\milk\חלב 3%25 בקרטון טרה.png" />
+    <Resource Include="Images\milk\חלב 3%25 בקרטון.png" />
+    <Resource Include="Images\milk\חלב 3%25 בשקית טרה.png" />
+    <Resource Include="Images\milk\חלב 3%25 בשקית תנובה.png" />
+    <Resource Include="Images\milk\משקה יוגורט בננה אפרסק.png" />
+    <Resource Include="Images\milk\משקה יוגורט תות-מלון.png" />
+    <Resource Include="Images\milk\רויון בקרטון.png" />
+    <Resource Include="Images\milk\שוקו בבקבוק.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\snacks\אצבעות שוקולד בקרם חלב.png" />
+    <Resource Include="Images\snacks\אצבעות שוקולד עם סוכריות קופצות.png" />
+    <Resource Include="Images\snacks\אצבעות שוקולד עם עדשים.png" />
+    <Resource Include="Images\snacks\ברנפלקס קרנצ%27ים בטעם קפה.png" />
+    <Resource Include="Images\snacks\ברנפלקס קרנצ%27ים מייפל.png" />
+    <Resource Include="Images\snacks\ברנפלקס קרנצ%27ים קינמון.png" />
+    <Resource Include="Images\snacks\ברנפלקס.png" />
+    <Resource Include="Images\snacks\דגני בוקר פינטס עם פירות.png" />
+    <Resource Include="Images\snacks\דגני בוקר פינטס עם שוקולד.png" />
+    <Resource Include="Images\snacks\דגני בוקר פינטס.png" />
+    <Resource Include="Images\snacks\דליפקאן.png" />
+    <Resource Include="Images\snacks\חטיפי קוקומן פצפוצים.png" />
+    <Resource Include="Images\snacks\חטיפי שוגי שוקו.png" />
+    <Resource Include="Images\snacks\חטיפי שוגי שוקולד לבן.png" />
+    <Resource Include="Images\snacks\מיני מקופלת מארז.png" />
+    <Resource Include="Images\snacks\מיקס חטיפים מתוקים.png" />
+    <Resource Include="Images\snacks\מיקס פסק זמן.png" />
+    <Resource Include="Images\snacks\עוגי.png" />
+    <Resource Include="Images\snacks\קוקומן שחור לבן.png" />
+    <Resource Include="Images\snacks\קרונפלקס דבש.png" />
+    <Resource Include="Images\snacks\קרונפלקס וניל.png" />
+    <Resource Include="Images\snacks\קרונפלקס מייפל.png" />
+    <Resource Include="Images\snacks\קרונפלקס מלא.png" />
+    <Resource Include="Images\snacks\קרונפלקס של אלופים.png" />
+    <Resource Include="Images\snacks\שוגי מצופים סוכר.png" />
+    <Resource Include="Images\snacks\שוקולד במילוי קרם חלב.png" />
+    <Resource Include="Images\snacks\שוקולד חלב עם עדשים.png" />
+    <Resource Include="Images\snacks\שוקולד חלב פרה מארז.png" />
+    <Resource Include="Images\snacks\שוקולד חלב פרה.png" />
+    <Resource Include="Images\snacks\שוקולד לבן.png" />
+    <Resource Include="Images\snacks\שוקולד ממולא קרם נוגט.png" />
+    <Resource Include="Images\snacks\שוקולד מריר עם אגוזים.png" />
+    <Resource Include="Images\snacks\שוקולד עם סוכריות קופצות.png" />
+    <Resource Include="Images\snacks\שוקולד פרה מריר מארז.png" />
+    <Resource Include="Images\snacks\שוקולד פרה מריר.png" />
+    <Resource Include="Images\snacks\שוקולד קליק וופל אגוזים.png" />
+    <Resource Include="Images\snacks\שוקולד קליק קרונפלקס אגוזים.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\cakes\גבישי שום.png" />
+    <Resource Include="Images\cakes\כורכום טחון.png" />
+    <Resource Include="Images\cakes\כמון טחון בשקית.png" />
+    <Resource Include="Images\cakes\מלח לימון בשקית.png" />
+    <Resource Include="Images\cakes\סוכר דמררה.png" />
+    <Resource Include="Images\cakes\סוכר לבן.png" />
+    <Resource Include="Images\cakes\פירורי לחם לבן.png" />
+    <Resource Include="Images\cakes\פירורי לחם מוזהבים.png" />
+    <Resource Include="Images\cakes\פלפל שחור גרוס בשקית.png" />
+    <Resource Include="Images\cakes\פפריקה מתוקה בשמן.png" />
+    <Resource Include="Images\cakes\פפריקה מתוקה בשקית.png" />
+    <Resource Include="Images\cakes\קמח חיטה לבן.png" />
+    <Resource Include="Images\cakes\קמח חיטה מלא.png" />
+    <Resource Include="Images\cakes\קמח תופח.png" />
+    <Resource Include="Images\cakes\שמן קנולה.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\wines\אר סי קולה ללא סוכר.png" />
+    <Resource Include="Images\wines\אר סי קולה מארז.png" />
+    <Resource Include="Images\wines\אר סי קולה.png" />
+    <Resource Include="Images\wines\דיאט סבן אפ.png" />
+    <Resource Include="Images\wines\מירינדה מארז.png" />
+    <Resource Include="Images\wines\סבן אפ מארז.png" />
+    <Resource Include="Images\wines\סבן אפ.png" />
+    <Resource Include="Images\wines\ספרייט זירו מארז.png" />
+    <Resource Include="Images\wines\ספרייט זירו.png" />
+    <Resource Include="Images\wines\ספרייט ליים מארז.png" />
+    <Resource Include="Images\wines\ספרייט ליים.png" />
+    <Resource Include="Images\wines\פאנטה אורנג.png" />
+    <Resource Include="Images\wines\פאנטה ענבים.png" />
+    <Resource Include="Images\wines\פאנטה תות.png" />
+    <Resource Include="Images\wines\פפסי מארז.png" />
+    <Resource Include="Images\wines\פפסי קולה.png" />
+    <Resource Include="Images\wines\קוקה קולה דיאט מארז.png" />
+    <Resource Include="Images\wines\קוקה קולה דיאט.png" />
+    <Resource Include="Images\wines\קוקה קולה זירו מארז.png" />
+    <Resource Include="Images\wines\קוקה קולה זירו.png" />
+    <Resource Include="Images\wines\קוקה קולה מארז.png" />
+    <Resource Include="Images\wines\קוקה קולה.png" />
+    <Resource Include="Images\wines\שוופס מוגז אשכולית אדומה.png" />
+    <Resource Include="Images\wines\שוופס מוגז לימונדה ורודה.png" />
+    <Resource Include="Images\wines\שוופס מוגז למונייד.png" />
+    <Resource Include="Images\wines\שוופס מוגז ענבים.png" />
+    <Resource Include="Images\wines\שוופס מוגז תפוחים.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\wines\גרנטס ויסקי.png" />
+    <Resource Include="Images\wines\וודקה אבסולוט.png" />
+    <Resource Include="Images\wines\וודקה רוסקי סטנדרט.png" />
+    <Resource Include="Images\wines\ויסקי שיבס.png" />
+    <Resource Include="Images\wines\מסע ישראלי אדום.png" />
+    <Resource Include="Images\wines\מסע ישראלי לבן.png" />
+    <Resource Include="Images\wines\מרטיני ביאקנו.png" />
+    <Resource Include="Images\wines\מרטיני רוסו אדום.png" />
+    <Resource Include="Images\wines\פטיט קסטל.png" />
+    <Resource Include="Images\wines\קוניאק גודה.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\chooseLocationBTN.png" />
+    <Resource Include="Images\deleteBTN.png" />
+    <Resource Include="Images\leftArrow.png" />
+    <Resource Include="Images\map.png" />
+    <Resource Include="Images\rightArrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\chooseLocationBTN %282%29.png" />
+    <Resource Include="Images\nextProdBTN.png" />
+    <Resource Include="Images\prevProdBTN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\LineO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\LineP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\LineGW.png" />
+    <Resource Include="Images\LineOW.png" />
+    <Resource Include="Images\LinePW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\LineGH.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\ice_creams\לה קרמיה סורבה.png" />
+    <Resource Include="Images\cleaning\אנטי קאלק.png" />
+    <Resource Include="Images\cleaning\אקונומיקה.png" />
+    <Resource Include="Images\cleaning\דאק נוזל גל לבנדר.png" />
+    <Resource Include="Images\cleaning\דאק נוזל ניחוח פירות.png" />
+    <Resource Include="Images\cleaning\מגבונים לחיטוי וניקוי.png" />
+    <Resource Include="Images\cleaning\מחטא ומנקה אבנית.png" />
+    <Resource Include="Images\cleaning\מחטא ומשמיד חיידקים.png" />
+    <Resource Include="Images\cleaning\מנקה אסלות.png" />
+    <Resource Include="Images\cleaning\נוזל למיקוי וחיטוי רצפות.png" />
+    <Resource Include="Images\cleaning\סנו גאוול לבנדר.png" />
+    <Resource Include="Images\cleaning\סנו גאוול לימון.png" />
+    <Resource Include="Images\cleaning\סנוקליר לניקוי חלונות.png" />
+    <Resource Include="Images\cleaning\סנוקליר שקית מילוי.png" />
+    <Resource Include="Images\cleaning\ריצפז פרש הום כותנה.png" />
+    <Resource Include="Images\cleaning\ריצפז פרש הום סבון מפנק.png" />
+    <Resource Include="Images\cleaning\ריצפז פרש הום ספא.png" />
+    <Resource Include="Images\cans\אטריות דקות.png" />
+    <Resource Include="Images\cans\גבישי שום.png" />
+    <Resource Include="Images\cans\כורכום טחון.png" />
+    <Resource Include="Images\cans\כמון טחון בשקית.png" />
+    <Resource Include="Images\cans\מלח ים גס.png" />
+    <Resource Include="Images\cans\מלח לימון בשקית.png" />
+    <Resource Include="Images\cans\מלח.png" />
+    <Resource Include="Images\cans\סוכר דמררה.png" />
+    <Resource Include="Images\cans\סוכר לבן.png" />
+    <Resource Include="Images\cans\פירורי לחם לבן.png" />
+    <Resource Include="Images\cans\פירורי לחם מוזהבים.png" />
+    <Resource Include="Images\cans\פלפל שחור גרוס בשקית.png" />
+    <Resource Include="Images\cans\פסטה מסולסלת.png" />
+    <Resource Include="Images\cans\פסטה מקרוני.png" />
+    <Resource Include="Images\cans\פסטה ספגטי.png" />
+    <Resource Include="Images\cans\פסטה צדפים גדולים.png" />
+    <Resource Include="Images\cans\פסטה צדפים קטנים.png" />
+    <Resource Include="Images\cans\פסטה צינורות.png" />
+    <Resource Include="Images\cans\פסטה קרניים בינוניות.png" />
+    <Resource Include="Images\cans\פסטה תלתלים.png" />
+    <Resource Include="Images\cans\פפריקה מתוקה בשמן.png" />
+    <Resource Include="Images\cans\פפריקה מתוקה בשקית.png" />
+    <Resource Include="Images\cans\קמח חיטה לבן.png" />
+    <Resource Include="Images\cans\קמח חיטה מלא.png" />
+    <Resource Include="Images\cans\קמח תופח.png" />
+    <Resource Include="Images\cans\שמן זית.png" />
+    <Resource Include="Images\cans\שמן חמניות.png" />
+    <Resource Include="Images\cans\שמן קנולה.png" />
+    <Resource Include="Images\ice_creams\לה פרוטה אננס מנגו.png" />
+    <Resource Include="Images\ice_creams\לה פרוטה מנגו.png" />
+    <Resource Include="Images\ice_creams\לה פרוטה תות.png" />
+    <Resource Include="Images\ice_creams\לה קרמיה שוקולד וניל.png" />
+    <Resource Include="Images\ice_creams\לה קרמריה צמחי וניל.png" />
+    <Resource Include="Images\ice_creams\לה קרמריה צמחי ריבת.png" />
+    <Resource Include="Images\ice_creams\לה קרמריה תותים.png" />
+    <Resource Include="Images\ice_creams\מאגדת אוראו.png" />
+    <Resource Include="Images\ice_creams\מאגדת גלידל פירות טרופים.png" />
+    <Resource Include="Images\ice_creams\מאגדת מיני מגנום דואט.png" />
+    <Resource Include="Images\ice_creams\מאגדת מיני מגנום קלאסיק.png" />
+    <Resource Include="Images\ice_creams\מאגדת מיני מגנום שקד.png" />
+    <Resource Include="Images\ice_creams\מאגדת מיני פסקזמן.png" />
+    <Resource Include="Images\ice_creams\מאגדת מצופים שוקולד.png" />
+    <Resource Include="Images\ice_creams\מאגדת קרח לימון דובדבן.png" />
+    <Resource Include="Images\ice_creams\מאגדת שוקוביס.png" />
+    <Resource Include="Images\nextProBTN.png" />
+    <Resource Include="Images\babies.JPG" />
+    <Resource Include="Images\bread.JPG" />
+    <Resource Include="Images\cakes.JPG" />
+    <Content Include="Images\cans.JPG" />
+    <Resource Include="Images\cleaning.JPG" />
+    <Resource Include="Images\dishes.JPG" />
+    <Resource Include="Images\frozen.JPG" />
+    <Resource Include="Images\fruit_veg.JPG" />
+    <Resource Include="Images\ice_creams.JPG" />
+    <Resource Include="Images\milk.JPG" />
+    <Resource Include="Images\snacks.JPG" />
+    <Resource Include="Images\wines.JPG" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

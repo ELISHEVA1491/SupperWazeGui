@@ -1,0 +1,31 @@
+C:\SupperWaze\SupperWaze\SupperWazeENTITIES\bin\Debug\SupperWazeENTITIES.dll
+C:\SupperWaze\SupperWaze\SupperWazeENTITIES\bin\Debug\SupperWazeENTITIES.pdb
+C:\SupperWaze\SupperWaze\SupperWazeENTITIES\obj\Debug\SupperWazeENTITIES.csproj.CoreCompileInputs.cache
+C:\SupperWaze\SupperWaze\SupperWazeENTITIES\obj\Debug\SupperWazeENTITIES.dll
+C:\SupperWaze\SupperWaze\SupperWazeENTITIES\obj\Debug\SupperWazeENTITIES.pdb
+C:\SupperWaze\SupperWaze\SupperWazeENTITIES\obj\Debug\SupperWazeENTITIES.csprojAssemblyReference.cache
+C:\Users\אלישבע תורג'מן\Desktop\שולחן עבודה\פרויקט\SupperWaze\SupperWaze\SupperWazeENTITIES\bin\Debug\SupperWazeENTITIES.dll
+C:\Users\אלישבע תורג'מן\Desktop\שולחן עבודה\פרויקט\SupperWaze\SupperWaze\SupperWazeENTITIES\bin\Debug\SupperWazeENTITIES.pdb
+C:\Users\אלישבע תורג'מן\Desktop\שולחן עבודה\פרויקט\SupperWaze\SupperWaze\SupperWazeENTITIES\obj\Debug\SupperWazeENTITIES.csprojResolveAssemblyReference.cache
+C:\Users\אלישבע תורג'מן\Desktop\שולחן עבודה\פרויקט\SupperWaze\SupperWaze\SupperWazeENTITIES\obj\Debug\SupperWazeENTITIES.dll
+C:\Users\אלישבע תורג'מן\Desktop\שולחן עבודה\פרויקט\SupperWaze\SupperWaze\SupperWazeENTITIES\obj\Debug\SupperWazeENTITIES.pdb
+C:\Users\1\Desktop\פרויקט\SupperWaze\SupperWaze\SupperWazeENTITIES\bin\Debug\SupperWazeENTITIES.dll
+C:\Users\1\Desktop\פרויקט\SupperWaze\SupperWaze\SupperWazeENTITIES\bin\Debug\SupperWazeENTITIES.pdb
+C:\Users\1\Desktop\פרויקט\SupperWaze\SupperWaze\SupperWazeENTITIES\obj\Debug\SupperWazeENTITIES.csprojResolveAssemblyReference.cache
+C:\Users\1\Desktop\פרויקט\SupperWaze\SupperWaze\SupperWazeENTITIES\obj\Debug\SupperWazeENTITIES.csproj.CoreCompileInputs.cache
+C:\Users\1\Desktop\פרויקט\SupperWaze\SupperWaze\SupperWazeENTITIES\obj\Debug\SupperWazeENTITIES.dll
+C:\Users\1\Desktop\פרויקט\SupperWaze\SupperWaze\SupperWazeENTITIES\obj\Debug\SupperWazeENTITIES.pdb
+C:\Users\אלישבע תורג'מן\Downloads\פרויקט\SupperWaze\SupperWaze\SupperWazeENTITIES\bin\Debug\SupperWazeENTITIES.dll
+C:\Users\אלישבע תורג'מן\Downloads\פרויקט\SupperWaze\SupperWaze\SupperWazeENTITIES\bin\Debug\SupperWazeENTITIES.pdb
+C:\Users\אלישבע תורג'מן\Downloads\פרויקט\SupperWaze\SupperWaze\SupperWazeENTITIES\obj\Debug\SupperWazeENTITIES.csprojResolveAssemblyReference.cache
+C:\Users\אלישבע תורג'מן\Downloads\פרויקט\SupperWaze\SupperWaze\SupperWazeENTITIES\obj\Debug\SupperWazeENTITIES.dll
+C:\Users\אלישבע תורג'מן\Downloads\פרויקט\SupperWaze\SupperWaze\SupperWazeENTITIES\obj\Debug\SupperWazeENTITIES.pdb
+C:\Users\אלישבע תורג'מן\Desktop\פרויקט\SupperWaze\SupperWaze\SupperWazeENTITIES\bin\Debug\SupperWazeENTITIES.dll
+C:\Users\אלישבע תורג'מן\Desktop\פרויקט\SupperWaze\SupperWaze\SupperWazeENTITIES\bin\Debug\SupperWazeENTITIES.pdb
+C:\Users\אלישבע תורג'מן\Desktop\פרויקט\SupperWaze\SupperWaze\SupperWazeENTITIES\obj\Debug\SupperWazeENTITIES.dll
+C:\Users\אלישבע תורג'מן\Desktop\פרויקט\SupperWaze\SupperWaze\SupperWazeENTITIES\obj\Debug\SupperWazeENTITIES.pdb
+C:\Users\אלישבע תורג'מן\Documents\a המסמכים שלי\פרויקטים\פרויקט גמר סופר וויז\SupperWaze\SupperWaze\SupperWazeENTITIES\bin\Debug\SupperWazeENTITIES.dll
+C:\Users\אלישבע תורג'מן\Documents\a המסמכים שלי\פרויקטים\פרויקט גמר סופר וויז\SupperWaze\SupperWaze\SupperWazeENTITIES\bin\Debug\SupperWazeENTITIES.pdb
+C:\Users\אלישבע תורג'מן\Documents\a המסמכים שלי\פרויקטים\פרויקט גמר סופר וויז\SupperWaze\SupperWaze\SupperWazeENTITIES\obj\Debug\SupperWazeENTITIES.csprojResolveAssemblyReference.cache
+C:\Users\אלישבע תורג'מן\Documents\a המסמכים שלי\פרויקטים\פרויקט גמר סופר וויז\SupperWaze\SupperWaze\SupperWazeENTITIES\obj\Debug\SupperWazeENTITIES.dll
+C:\Users\אלישבע תורג'מן\Documents\a המסמכים שלי\פרויקטים\פרויקט גמר סופר וויז\SupperWaze\SupperWaze\SupperWazeENTITIES\obj\Debug\SupperWazeENTITIES.pdb

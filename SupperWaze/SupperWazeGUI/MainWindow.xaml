@@ -1,0 +1,37 @@
+﻿<Window x:Class="SupperWazeGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SupperWazeGUI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="700" Width="850" Background="White">
+    <Grid>
+       
+        <Button Click="Button_Click_1" Height="50" Margin="677,88,7,531" Name="btnFruits">
+            <Image Source="C:\SupperWaze\SupperWaze\SupperWazeGUI\Images\image (28).png" />
+        </Button>
+        <Button  Height="50" Margin="515,89,169,530" Name="btnDrinks">
+            <Image Source="C:\SupperWaze\SupperWaze\SupperWazeGUI\Images\image (28).png" />
+        </Button>
+        
+        <!--
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="73*"/>
+            <ColumnDefinition Width="191*"/>
+        </Grid.ColumnDefinitions>
+        <Button Click="Button_Click" Content="לקוח" Margin="247,218,192,161" Grid.Column="1"/>
+        <Image HorizontalAlignment="Left" Height="134" VerticalAlignment="Top" Width="259" Grid.Column="1" Margin="41,62,0,0"/>
+        <Rectangle Width="100" Height="50">
+          <Rectangle.fill>
+            <RadialGradientBrush>
+                <GradientStop Offset="0" Color="Yellow"/>
+                <GradientStop Offset="0.5" Color="Orange"/>
+                <GradientStop Offset="1" Color="Pink"/>
+            </RadialGradientBrush>
+          </Rectangle.fill>
+        </Rectangle>-->
+<Menu  />
+        <DocumentViewer HorizontalAlignment="Left" Margin="257,85,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>

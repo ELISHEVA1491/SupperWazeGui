@@ -1,0 +1,15 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:SupperWazeGUI">
+    <DataTemplate x:Key="DataTemplateRoute" DataType="local:myData">
+        <Grid Width="200">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.2*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Image Source="~\..\Images\location.png" Grid.Column="0" Height="20" HorizontalAlignment="Center"/>
+            <TextBlock Grid.Column="1" Text="{Binding ProductDescription}" HorizontalAlignment="Center" FontSize="15" Foreground="Black"/>
+
+        </Grid>
+    </DataTemplate>
+</ResourceDictionary>

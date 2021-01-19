@@ -1,0 +1,100 @@
+﻿<Window x:Class="SupperWazeGUI.Forms.TheSoppingMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SupperWazeGUI.Forms"
+        mc:Ignorable="d"
+        Title="TheSoppingMenu" Height="300" Width="522.738" WindowState="Maximized">
+    <Grid Background="Black">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="6*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.25*"/>
+            <ColumnDefinition Width="0.25*"/>
+            <ColumnDefinition Width="1.75*"/>
+            <ColumnDefinition Width="0.15*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="0.25*"/>
+        </Grid.ColumnDefinitions>
+        <Image Source="~\..\..\Images\logo.png" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="30,0,0,0"/>
+        <Grid Grid.Row="1" Grid.Column="4">
+            <Grid.Background>
+                <ImageBrush ImageSource="/SupperWazeGUI;component/Images/depart_background.png"/>
+            </Grid.Background>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.8*"/>
+                <RowDefinition Height="0.3*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="0.3*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="0.3*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="0.3*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="0.3*"/>
+                <RowDefinition Height="0.5*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.2*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="0.2*"/>
+            </Grid.ColumnDefinitions>
+            <Label Content=":בחר מחלקה"  Grid.ColumnSpan="5" FontFamily="AsparagosLight" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25"/>
+            <Image Name="ice_cream" Source="~\..\..\Images/platoons\ice_creams.JPG" Grid.Row="2" Grid.Column="1" MouseDown="ice_cream_MouseDown"/>
+            <Label Content="גלידות" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Center" FontFamily="AsparagosLight"/>
+            <Image Name="cleaning" Source="~\..\..\Images/platoons\cleaning.JPG" Grid.Row="2" Grid.Column="2" MouseDown="cleaning_MouseDown"/>
+            <Label Content="ניקיון" Grid.Row="3" Grid.Column="2" HorizontalAlignment="Center" FontFamily="AsparagosLight"/>
+            <Image Name="cakes" Source="~\..\..\Images/platoons\cakes.JPG" Grid.Row="2" Grid.Column="3" MouseDown="cakes_MouseDown"/>
+            <Label Content="בישול ואפיה" Grid.Row="3" Grid.Column="3" HorizontalAlignment="Center" FontFamily="AsparagosLight"/>
+            <Image Name="bread" Source="~\..\..\Images/platoons\bread.JPG" Grid.Row="4" Grid.Column="1" MouseDown="bread_MouseDown"/>
+            <Label Content="לחם ומאפים" Grid.Row="5" Grid.Column="1" HorizontalAlignment="Center" FontFamily="AsparagosLight"/>
+            <Image Name="snacks" Source="~\..\..\Images/platoons\snacks.JPG" Grid.Row="4" Grid.Column="2" MouseDown="snacks_MouseDown"/>
+            <Label Content="חטיפים" Grid.Row="5" Grid.Column="2" HorizontalAlignment="Center" FontFamily="AsparagosLight"/>
+            <Image Name="cans" Source="~\..\..\Images/platoons\cans.JPG" Grid.Row="4" Grid.Column="3" MouseDown="cans_MouseDown"/>
+            <Label Content="שימורים" Grid.Row="5" Grid.Column="3" HorizontalAlignment="Center" FontFamily="AsparagosLight"/>
+            <Image Name="fruit" Source="~\..\..\Images/platoons\fruit_veg.JPG" Grid.Row="6" Grid.Column="1" MouseDown="fruit_MouseDown"/>
+            <Label Content="פירות וירקות" Grid.Row="7" Grid.Column="1" HorizontalAlignment="Center" FontFamily="AsparagosLight"/>
+            <Image Name="frozen" Source="~\..\..\Images/platoons\frozen.JPG" Grid.Row="6" Grid.Column="2" MouseDown="frozen_MouseDown"/>
+            <Label Content="קפואים" Grid.Row="7" Grid.Column="2" HorizontalAlignment="Center" FontFamily="AsparagosLight"/>
+            <Image Name="milk" Source="~\..\..\Images/platoons\milk.JPG" Grid.Row="6" Grid.Column="3" MouseDown="milk_MouseDown"/>
+            <Label Content="חלב וביצים" Grid.Row="7" Grid.Column="3" HorizontalAlignment="Center" FontFamily="AsparagosLight"/>
+            <Image Name="dishes" Source="~\..\..\Images/platoons\dishes.JPG" Grid.Row="8" Grid.Column="1" MouseDown="dishes_MouseDown"/>
+            <Label Content="חד פעמי" Grid.Row="9" Grid.Column="1" HorizontalAlignment="Center" FontFamily="AsparagosLight"/>
+            <Image Name="wines" Source="~\..\..\Images/platoons\wines.JPG" Grid.Row="8" Grid.Column="2" MouseDown="wines_MouseDown"/>
+            <Label Content="יין ואלכוהול" Grid.Row="9" Grid.Column="2" HorizontalAlignment="Center" FontFamily="AsparagosLight"/>
+            <Image Name="babies" Source="~\..\..\Images/platoons\babies.JPG" Grid.Row="8" Grid.Column="3" MouseDown="babies_MouseDown"/>
+            <Label Content="פארם ותינוקות" Grid.Row="9" Grid.Column="3" HorizontalAlignment="Center" FontFamily="AsparagosLight"/>
+        </Grid>
+
+        <Grid Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2">
+            <Grid.Background>
+                <ImageBrush ImageSource="/SupperWazeGUI;component/Images/products_background.png"/>
+            </Grid.Background>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="0.4*"/>
+                <RowDefinition Height="6*"/>
+                <RowDefinition Height="0.2*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="0.2*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.05*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="0.05*"/>
+            </Grid.ColumnDefinitions>
+            <Label Content="?מה אני צריך לקחת מכאן" Grid.ColumnSpan="4" FontFamily="AsparagosLight" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25"/>
+            <Label Content="{Binding Mode=OneWay}" Grid.Row="1" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="18" FontFamily="AsparagosLight"/>
+            <Grid Name="productsBoard" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2"/>
+            <Image Name="endBuying" Source="~\..\..\Images/endBuyingBTN.png" Grid.Row="4" Grid.Column="2" HorizontalAlignment="Left" Margin="5,0,0,0" MouseDown="endBuying_MouseDown"/>
+            <Image Name="showCart" Source="~\..\..\Images/showCartBTN.png" Grid.Row="4" Grid.Column="1" HorizontalAlignment="Right" Margin="0,0,5,0" MouseDown="showCart_MouseDown"/>
+        </Grid>
+    </Grid>
+</Window>

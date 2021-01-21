@@ -15,14 +15,14 @@
       <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
         <!--
           UAC Manifest Options
-          If you want to change the Windows User Account Control level replace the 
+          If you want to change the Windows User Account Control level replace the
           requestedExecutionLevel node with one of the following.
 
         <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
         <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
         <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
 
-         If you want to utilize File and Registry Virtualization for backward 
+         If you want to utilize File and Registry Virtualization for backward
          compatibility then delete the requestedExecutionLevel node.
     -->
         <requestedExecutionLevel level="asInvoker" uiAccess="false" />
@@ -49,7 +49,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>pauQJZEyD2IoTbHT66scpZ6l7NroMtCn5gdTnR5yEk4=</dsig:DigestValue>
+        <dsig:DigestValue>WOh/uHDO7xCp68wSIlvYFcPXlzmzYV/FeB20kQ/bkQg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -61,7 +61,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>COHaMgDyWQ633tJJsK20APqAVAbl6E8VMh8uUOFjKoI=</dsig:DigestValue>
+        <dsig:DigestValue>NK4o5kikvb5tYUpa4b62EdhTGD46dNU7IFAj87h6C8A=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -73,19 +73,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>XB5BvMTTrJlKRWygM/nQrGHArS39g0tHby4P+a9nFXE=</dsig:DigestValue>
+        <dsig:DigestValue>OPAYevSSaURrYJHsaMKLPqMZV0oZm/Fj2j/Zuxz6R0A=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SupperWazeGUI.exe" size="9367576">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SupperWazeGUI.exe" size="9367064">
       <assemblyIdentity name="SupperWazeGUI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>/g+P8F6s0V6pFXsH+6m7+Bz5zSd3nIiwi8gFBMMQWCo=</dsig:DigestValue>
+        <dsig:DigestValue>nfnQgLKNjKbVTHFSA5YguwOm3DGhnXMUlNoDpWAP3lc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -55,3 +55,14 @@ C:\Users\אלישבע תורג'מן\Documents\a המסמכים שלי\פרויק
 C:\Users\אלישבע תורג'מן\Documents\a המסמכים שלי\פרויקטים\פרויקט גמר סופר וויז\SupperWaze\SupperWaze\SupperWazeBL\obj\Debug\SupperWazeBL.csprojResolveAssemblyReference.cache
 C:\Users\אלישבע תורג'מן\Documents\a המסמכים שלי\פרויקטים\פרויקט גמר סופר וויז\SupperWaze\SupperWaze\SupperWazeBL\obj\Debug\SupperWazeBL.dll
 C:\Users\אלישבע תורג'מן\Documents\a המסמכים שלי\פרויקטים\פרויקט גמר סופר וויז\SupperWaze\SupperWaze\SupperWazeBL\obj\Debug\SupperWazeBL.pdb
+C:\Users\Shira\Desktop\אליבע תורגמן\SupperWazeGui\SupperWaze\SupperWazeBL\bin\Debug\SupperWazeBL.dll
+C:\Users\Shira\Desktop\אליבע תורגמן\SupperWazeGui\SupperWaze\SupperWazeBL\bin\Debug\SupperWazeBL.pdb
+C:\Users\Shira\Desktop\אליבע תורגמן\SupperWazeGui\SupperWaze\SupperWazeBL\bin\Debug\SupperWazeDAL.dll
+C:\Users\Shira\Desktop\אליבע תורגמן\SupperWazeGui\SupperWaze\SupperWazeBL\bin\Debug\SupperWazeENTITIES.dll
+C:\Users\Shira\Desktop\אליבע תורגמן\SupperWazeGui\SupperWaze\SupperWazeBL\bin\Debug\SupperWazeDAL.pdb
+C:\Users\Shira\Desktop\אליבע תורגמן\SupperWazeGui\SupperWaze\SupperWazeBL\bin\Debug\SupperWazeENTITIES.pdb
+C:\Users\Shira\Desktop\אליבע תורגמן\SupperWazeGui\SupperWaze\SupperWazeBL\obj\Debug\SupperWazeBL.csprojAssemblyReference.cache
+C:\Users\Shira\Desktop\אליבע תורגמן\SupperWazeGui\SupperWaze\SupperWazeBL\obj\Debug\SupperWazeBL.csproj.CoreCompileInputs.cache
+C:\Users\Shira\Desktop\אליבע תורגמן\SupperWazeGui\SupperWaze\SupperWazeBL\obj\Debug\SupperWazeBL.csproj.CopyComplete
+C:\Users\Shira\Desktop\אליבע תורגמן\SupperWazeGui\SupperWaze\SupperWazeBL\obj\Debug\SupperWazeBL.dll
+C:\Users\Shira\Desktop\אליבע תורגמן\SupperWazeGui\SupperWaze\SupperWazeBL\obj\Debug\SupperWazeBL.pdb

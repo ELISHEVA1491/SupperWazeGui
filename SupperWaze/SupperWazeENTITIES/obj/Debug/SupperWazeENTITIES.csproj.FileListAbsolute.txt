@@ -29,3 +29,9 @@ C:\Users\אלישבע תורג'מן\Documents\a המסמכים שלי\פרויק
 C:\Users\אלישבע תורג'מן\Documents\a המסמכים שלי\פרויקטים\פרויקט גמר סופר וויז\SupperWaze\SupperWaze\SupperWazeENTITIES\obj\Debug\SupperWazeENTITIES.csprojResolveAssemblyReference.cache
 C:\Users\אלישבע תורג'מן\Documents\a המסמכים שלי\פרויקטים\פרויקט גמר סופר וויז\SupperWaze\SupperWaze\SupperWazeENTITIES\obj\Debug\SupperWazeENTITIES.dll
 C:\Users\אלישבע תורג'מן\Documents\a המסמכים שלי\פרויקטים\פרויקט גמר סופר וויז\SupperWaze\SupperWaze\SupperWazeENTITIES\obj\Debug\SupperWazeENTITIES.pdb
+C:\Users\Shira\Desktop\אליבע תורגמן\SupperWazeGui\SupperWaze\SupperWazeENTITIES\bin\Debug\SupperWazeENTITIES.dll
+C:\Users\Shira\Desktop\אליבע תורגמן\SupperWazeGui\SupperWaze\SupperWazeENTITIES\bin\Debug\SupperWazeENTITIES.pdb
+C:\Users\Shira\Desktop\אליבע תורגמן\SupperWazeGui\SupperWaze\SupperWazeENTITIES\obj\Debug\SupperWazeENTITIES.csprojAssemblyReference.cache
+C:\Users\Shira\Desktop\אליבע תורגמן\SupperWazeGui\SupperWaze\SupperWazeENTITIES\obj\Debug\SupperWazeENTITIES.csproj.CoreCompileInputs.cache
+C:\Users\Shira\Desktop\אליבע תורגמן\SupperWazeGui\SupperWaze\SupperWazeENTITIES\obj\Debug\SupperWazeENTITIES.dll
+C:\Users\Shira\Desktop\אליבע תורגמן\SupperWazeGui\SupperWaze\SupperWazeENTITIES\obj\Debug\SupperWazeENTITIES.pdb

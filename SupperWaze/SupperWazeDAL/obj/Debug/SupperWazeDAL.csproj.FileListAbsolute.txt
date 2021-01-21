@@ -43,3 +43,12 @@ C:\Users\אלישבע תורג'מן\Documents\a המסמכים שלי\פרויק
 C:\Users\אלישבע תורג'מן\Documents\a המסמכים שלי\פרויקטים\פרויקט גמר סופר וויז\SupperWaze\SupperWaze\SupperWazeDAL\obj\Debug\SupperWazeDAL.csprojResolveAssemblyReference.cache
 C:\Users\אלישבע תורג'מן\Documents\a המסמכים שלי\פרויקטים\פרויקט גמר סופר וויז\SupperWaze\SupperWaze\SupperWazeDAL\obj\Debug\SupperWazeDAL.dll
 C:\Users\אלישבע תורג'מן\Documents\a המסמכים שלי\פרויקטים\פרויקט גמר סופר וויז\SupperWaze\SupperWaze\SupperWazeDAL\obj\Debug\SupperWazeDAL.pdb
+C:\Users\Shira\Desktop\אליבע תורגמן\SupperWazeGui\SupperWaze\SupperWazeDAL\bin\Debug\SupperWazeDAL.dll
+C:\Users\Shira\Desktop\אליבע תורגמן\SupperWazeGui\SupperWaze\SupperWazeDAL\bin\Debug\SupperWazeDAL.pdb
+C:\Users\Shira\Desktop\אליבע תורגמן\SupperWazeGui\SupperWaze\SupperWazeDAL\bin\Debug\SupperWazeENTITIES.dll
+C:\Users\Shira\Desktop\אליבע תורגמן\SupperWazeGui\SupperWaze\SupperWazeDAL\bin\Debug\SupperWazeENTITIES.pdb
+C:\Users\Shira\Desktop\אליבע תורגמן\SupperWazeGui\SupperWaze\SupperWazeDAL\obj\Debug\SupperWazeDAL.csprojAssemblyReference.cache
+C:\Users\Shira\Desktop\אליבע תורגמן\SupperWazeGui\SupperWaze\SupperWazeDAL\obj\Debug\SupperWazeDAL.csproj.CoreCompileInputs.cache
+C:\Users\Shira\Desktop\אליבע תורגמן\SupperWazeGui\SupperWaze\SupperWazeDAL\obj\Debug\SupperWazeDAL.csproj.CopyComplete
+C:\Users\Shira\Desktop\אליבע תורגמן\SupperWazeGui\SupperWaze\SupperWazeDAL\obj\Debug\SupperWazeDAL.dll
+C:\Users\Shira\Desktop\אליבע תורגמן\SupperWazeGui\SupperWaze\SupperWazeDAL\obj\Debug\SupperWazeDAL.pdb

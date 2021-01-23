@@ -78,14 +78,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SupperWazeGUI.exe" size="9367576">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SupperWazeGUI.exe" size="9367064">
       <assemblyIdentity name="SupperWazeGUI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>/g+P8F6s0V6pFXsH+6m7+Bz5zSd3nIiwi8gFBMMQWCo=</dsig:DigestValue>
+        <dsig:DigestValue>fA6fnnjgMjK9bJWEos5Zrpp1OkZdzx/8SB5pTgNIAsk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

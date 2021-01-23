@@ -7,7 +7,9 @@
         mc:Ignorable="d"
         Title="TheShoppingRoute" Height="300" Width="527.586" WindowState="Maximized">
     <Window.Resources>
-        <ResourceDictionary Source="C:\Users\אלישבע תורג'מן\Desktop\פרויקט\SupperWaze\SupperWaze\SupperWazeGUI\Route_Dictionary.xaml"/>
+         <ResourceDictionary Source="C:\Users\אלישבע תורג'מן\Documents\a המסמכים שלי\פרויקטים\פרויקט גמר סופר וויז\SupperWazeGit\SupperWaze\SupperWazeGUI\Route_Dictionary.xaml"/>
+
+        <!--  <ResourceDictionary Source="c:\..\..\..\..\..\..\..\SupperWazeGit\SupperWaze\SupperWazeGUI\Route_Dictionary"/>-->
     </Window.Resources>
     
     <Grid Background="Black">

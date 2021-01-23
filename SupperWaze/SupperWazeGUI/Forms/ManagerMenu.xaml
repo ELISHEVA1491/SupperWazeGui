@@ -78,9 +78,9 @@
                 <Label Content="עדכן מיקום מוצר" Grid.Row="3" MouseDown="Label_MouseDown_2" MouseEnter="Label_MouseMove" MouseLeave="lbl1_MouseLeave"/>
                 <Label Content="מחק מוצר" Grid.Row="4" MouseDown="Label_MouseDown_3" MouseEnter="Label_MouseMove" MouseLeave="lbl1_MouseLeave"/>
                 <Label Content="עדכן מלאי" Grid.Row="5" MouseDown="Label_MouseDown_5" MouseEnter="Label_MouseMove" MouseLeave="lbl1_MouseLeave"/>
-                <Label Content="הוסף מבצע" Grid.Row="6" MouseDown="Label_MouseDown_4" MouseEnter="Label_MouseMove" MouseLeave="lbl1_MouseLeave"/>
+               <!-- <Label Content="הוסף מבצע" Grid.Row="6" MouseDown="Label_MouseDown_4" MouseEnter="Label_MouseMove" MouseLeave="lbl1_MouseLeave"/>
                 <Label Content="עדכן מבצע" Grid.Row="7" MouseDown="Label_MouseDown_6" MouseEnter="Label_MouseMove" MouseLeave="lbl1_MouseLeave"/>
-                <Label Content="מחק מבצע" Grid.Row="8" MouseDown="Label_MouseDown_7" MouseEnter="Label_MouseMove" MouseLeave="lbl1_MouseLeave"/>
+                <Label Content="מחק מבצע" Grid.Row="8" MouseDown="Label_MouseDown_7" MouseEnter="Label_MouseMove" MouseLeave="lbl1_MouseLeave"/>-->
             </Grid>
         </Grid>
         
